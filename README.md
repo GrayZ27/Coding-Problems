@@ -1,4 +1,4 @@
-This repository contains my Swift solutions for Coding problems, and ideas on how to solve them.
+This repository contains my Swift solutions for Coding problems.
 
 These problems are mostly from LeetCode, some of them might from Hacker Rank, or other online resources, or solutions to solve some fun math problems. 
 
@@ -8,5 +8,8 @@ In each solution, I will use at least one case inside my swift file to test the 
 
 Currently Coding Problems:
 
-1.Two Sum From LeetCode
+1. Two Sum From LeetCode
  -- Original link: https://leetcode.com/problems/two-sum/
+ 
+ 2. Add Two Numbers From LeetCode
+  -- Original link: https://leetcode.com/problems/add-two-numbers/
