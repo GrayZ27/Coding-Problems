@@ -12,4 +12,7 @@ Currently Coding Problems:
  -- Original link: https://leetcode.com/problems/two-sum/
  
  2. Add Two Numbers From LeetCode
-  -- Original link: https://leetcode.com/problems/add-two-numbers/
+ -- Original link: https://leetcode.com/problems/add-two-numbers/
+  
+  7. Reverse Integer From LeetCode
+ -- Original link: https://leetcode.com/problems/reverse-integer/
