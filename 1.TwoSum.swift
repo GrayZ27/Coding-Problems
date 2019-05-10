@@ -34,7 +34,7 @@ class Solution {
                 numWithIndex[nums[i]] = i
             }
         }
-        //finally, if we cannot find a wanted pairs, just return an empty array.
+        //if we cannot find a wanted pairs, just return an empty array.
         return []
     }
 }
