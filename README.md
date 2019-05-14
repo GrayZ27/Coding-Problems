@@ -9,15 +9,23 @@ In each solution, I will use at least one case inside my swift file to test the 
 Currently Coding Problems:
 
 1. Two Sum From LeetCode
+
  -- Original link: https://leetcode.com/problems/two-sum/
  
  2. Add Two Numbers From LeetCode
+ 
  -- Original link: https://leetcode.com/problems/add-two-numbers/
   
   3. Longest Substring Without Repeating Characters From LeetCode
+  
   -- Original link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
   
   7. Reverse Integer From LeetCode
+  
  -- Original link: https://leetcode.com/problems/reverse-integer/
+ 
+ 17. Longest Common Prefix
+ 
+  -- Original link: https://leetcode.com/problems/longest-common-prefix/
  
  
