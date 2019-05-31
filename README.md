@@ -26,6 +26,10 @@ Currently Coding Problems:
  
  17. Longest Common Prefix
  
-  -- Original link: https://leetcode.com/problems/longest-common-prefix/
+ -- Original link: https://leetcode.com/problems/longest-common-prefix/
+ 
+ 66. Plus One
+ 
+ -- Original link: https://leetcode.com/problems/plus-one/
  
  
