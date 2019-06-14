@@ -28,6 +28,10 @@ Currently Coding Problems:
  
  -- Original link: https://leetcode.com/problems/longest-common-prefix/
  
+ 21. Merge Two Sorted Lists
+ 
+ -- Original link: https://leetcode.com/problems/merge-two-sorted-lists/
+ 
  53. Maximum Subarray
  
   -- Original link: https://leetcode.com/problems/maximum-subarray/
