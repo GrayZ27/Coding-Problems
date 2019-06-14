@@ -41,29 +41,24 @@ class Solution {
         
         //create a nested func to reduce duplicate codes.
         func appendNode(_ node: inout ListNode?) {
-            let next = node
+            currentNode.next = node
+            currentNode = node!
             node = node?.next
-            currentNode.next = next
-            currentNode = next!
         }
         
         //compare vals when both nodes are not nil, and append the smaller one to new list.
-        while l1Node != nil && l2Node != nil {
-            let val1 = l1Node!.val
-            let val2 = l2Node!.val
-            if val1 <= val2 {
+        while l1Node != nil || l2Node != nil {
+            if let node1 = l1Node, let node2 = l2Node {
+                if node1.val <= node2.val {
+                    appendNode(&l1Node)
+                }else if node1.val > node2.val {
+                    appendNode(&l2Node)
+                }
+            }else if let node1 = l1Node {
                 appendNode(&l1Node)
-            }else if val1 > val2 {
+            }else if let node2 = l2Node {
                 appendNode(&l2Node)
             }
-        }
-        
-        //At the point, either of l1Node or l2Node might still hold a val.
-        while l1Node != nil {
-            appendNode(&l1Node)
-        }
-        while l2Node != nil {
-            appendNode(&l2Node)
         }
         
         return voidNode.next
