@@ -3,7 +3,8 @@
 
 /*
  LeetCode problem - 21. Merge Two Sorted Lists -- Difficulty Lv: Easy
- Problems: Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+ Problems: Merge two sorted linked lists and return it as a new list.
+            The new list should be made by splicing together the nodes of the first two lists.
  
  Example:
  Input: 1->2->4, 1->3->4
@@ -37,12 +38,12 @@ class Solution {
         //and return voidNode.next as the first node of the new list.
         var voidNode = ListNode(0)
         //create a currentNode to keep track of the last node on the new list.
-        var currentNode = voidNode
+        var currentNode: ListNode? = voidNode
         
         //create a nested func to reduce duplicate codes.
         func appendNode(_ node: inout ListNode?) {
-            currentNode.next = node
-            currentNode = node!
+            currentNode?.next = node
+            currentNode = node
             node = node?.next
         }
         
@@ -54,9 +55,9 @@ class Solution {
                 }else if node1.val > node2.val {
                     appendNode(&l2Node)
                 }
-            }else if let node1 = l1Node {
+            }else if l1Node != nil {
                 appendNode(&l1Node)
-            }else if let node2 = l2Node {
+            }else {
                 appendNode(&l2Node)
             }
         }
