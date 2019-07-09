@@ -44,4 +44,8 @@ Currently Coding Problems:
  
  -- Original link: https://leetcode.com/problems/merge-sorted-array/
  
+ 268. Missing Number
+ 
+ -- Original link: https://leetcode.com/problems/missing-number/
+ 
  
